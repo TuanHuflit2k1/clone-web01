@@ -1,0 +1,7 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;800&display=swap");
+:root {
+    --header-height:5rem;
+    --main-color:#f7e6df;
+    
+}

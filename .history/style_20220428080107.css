@@ -1,0 +1,38 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;800&display=swap");
+:root {
+  --header-height: 5rem;
+  --main-color: #f7e6df;
+  --first-color: #75492b;
+  --secon-color: #dfd6a7;
+  --white-color: #fff;
+  --black-color: #151515;
+
+  --font-cursive: "Great Vibes", cursive;
+  --font-body: "Montserrat", sans-serif;
+
+  --big-font-size: 3rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.813rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--white-color);
+    font-size: var(--normal-font-size);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+}
